@@ -6,7 +6,6 @@ import Database from "./pages/Database";
 function App() {
   return (
     <>
-    <Home />
       <BrowserRouter>
         <Routes>
           <Route path= "/" element={<Home /> }/>
