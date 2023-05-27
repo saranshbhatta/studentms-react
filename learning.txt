@@ -1,0 +1,69 @@
+1.     passing a prop in react 
+
+import gareko component ma
+<ComponentName  propName= "give a name to the prop"/>   eg <Navbar  title = "Name"/>
+export gareko componet ma 
+function({propName})=>{
+    use propName
+}
+
+eg
+const Navbar({title})=>{
+    <h1> { title}</h1>
+}
+
+also default props is given in export component function as 
+const Navbar ({title ="" default props name}){
+    ...
+}
+
+
+you can also pass props by a object which is declared as a variable
+
+let obj = {
+    name:"saransh",
+    age:23
+}
+import garney thau ma 
+<ComponentName {...obj} />
+
+
+
+
+
+2. ternery operator 
+ if (condition1){
+    logic1
+ } else{
+    logic2
+ }
+
+can be written as 
+
+condition1 ? logic1 :logic2 
+
+
+or use shortcircuit logic 
+condition1 && logic1 =---------------logic 1 is executed only if condition1  is true------if condition 1 if false jannnaaaa
+
+
+
+
+
+
+
+
+3. map in react  to rendetr same omponent with different props
+
+make an array of objects containing props
+let propsArr = [{
+    name:"",
+    age:
+}]
+
+propsArr.map((eachComponent)=>{
+    return JSX
+})
+
+
+

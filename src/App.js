@@ -2,6 +2,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Database from "./pages/Database";
+import AddNewData from "./pages/AddNewData";
+
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
         <Routes>
           <Route path= "/" element={<Home /> }/>
           <Route path= "/database" element={<Database /> }/>
+          <Route path= "/new-student" element={<AddNewData /> }/>
         </Routes>
       </BrowserRouter>
     </>
