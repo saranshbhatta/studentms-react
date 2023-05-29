@@ -3,3 +3,17 @@
     grid-template-columns: auto auto auto auto;
 
 }
+.addNewData{
+    position: relative;
+}
+.addDataBtn{
+    transition: all 0.5s;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+
+.addDataBtn:hover{
+    background-color: rgb(30, 226, 112);
+    cursor: pointer;
+}

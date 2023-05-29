@@ -15,5 +15,13 @@
 
 .cardContainer:hover {
   transform: scale(1.1);
-  transition: .5s ease;
+  transition: 0.5s ease;
+}
+
+.delBtn {
+  cursor: pointer;
+}
+.delBtn:hover {
+  background-color: rgb(248, 128, 128);
+  color: white;
 }

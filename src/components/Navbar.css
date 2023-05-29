@@ -6,6 +6,7 @@ ul a{
     text-decoration: none;
     list-style: none;
     color: black;
+    transition: all 0.3s;
 }
 ul{
     display: flex;
@@ -14,15 +15,18 @@ ul{
     padding: 5px;
 }
 
-img{
+.logoImg{
     height: 50px;
-    width: 100px;
+    width: 60px;
+    border-radius: 50%;
 }
 
 .navbar_container{
     background-color: blue;
-    display: flex;
+    display:flex;
     align-items: center;
+    justify-content: space-between;
+    
 }
 
 
